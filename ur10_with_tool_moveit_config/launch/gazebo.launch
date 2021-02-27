@@ -1,0 +1,10 @@
+<launch>
+    <include file="$(find ur10_with_tool_moveit_config)/launch/ur10_with_tool.launch" />
+    <include file="$(find ur10_with_tool_moveit_config)/launch/ur10_moveit_planning_execution.launch">
+        <arg name="sim" value="true" />
+        <arg name="limited" value="true" />
+    </include>
+    <include file="$(find ur10_with_tool_moveit_config)/launch/moveit_rviz.launch">
+        <arg name="config" default="true" />
+    </include>
+</launch>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ur10_with_tool</name>
+  <version>0.0.0</version>
+  <description>
+      URDF description for Universal UR10 robot arm with an attached fixture for attaching syntouch biotac sp sensor
+  </description>
+  <maintainer email="bsadrfa@g.clemson.edu">Behzad Sadrfaridpour</maintainer>
+  <maintainer email="kganguly@cs.umd.edu">Kanishka Ganguly</maintainer>
+  <license>LGPLv3</license>
+  <author email="bsadrfa@g.clemson.edu">Behzad Sadrfaridpour</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>  
+
+  <export>
+  </export>
+</package>

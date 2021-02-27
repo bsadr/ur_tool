@@ -1,0 +1,6 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur10_with_tool
+    relative_path: urdf/ur10_with_fixture.urdf.xacro
+  SRDF:
+    relative_path: config/ur10.srdf
